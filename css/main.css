@@ -1201,16 +1201,10 @@ td {
 
 .logo-symbol {
   float: left;
-  width: 44px;
-  height: 44px;
-  line-height: 44px;
-  background-color: #FF9638;
-  border-radius: 100px;
-  text-align: center;
-  color: #fff;
-  font-size: 28px;
-  font-weight: 800;
-  margin-right: 8px;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  margin-right: 12px;
   margin-top: 4px;
 }
 
