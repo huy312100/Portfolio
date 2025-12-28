@@ -79,9 +79,11 @@
                           <h1>Huy Nguyen Ngoc Duc</h1>
                           <h3>Hendrix Nguyen</h3>
                           <p> I am a tech enthusiast and passion for mastering new skills and techniques.
-                            I specialize in both backend and frontend. Have more than 3 year of 
-                            experience as a software engineer in tech industry. Let's connect and explore opportunities to bring 
-                            impactful ideas to life. If you want to know me better, please reach me out so I can send my resume.</p>
+                            I specialize in both backend and frontend. I am also interested in theoretical computer science in general, including machine learning theory, combinatorial optimization, and combinatorial algorithms.
+                            Have more than 3 years of experience as a software engineer in the tech industry. Let's connect and explore opportunities to bring impactful ideas to life. If you want to know me better, please reach me out so I can send my resume.
+                          </p>
+                          <br/>
+                          <p>My full name in Vietnamese is Nguyễn Ngọc Đức Huy.</p>
                         </div>
                       </div>
                     </div>
@@ -109,7 +111,6 @@
           document.addEventListener('DOMContentLoaded', () => {
             loadHTML('header.html', 'header');
             loadHTML('footer.html', 'footer', () => {
-              // Sau khi footer load xong thì gán năm
               const yearElement = document.getElementById("currentYear");
               if (yearElement) {
                 yearElement.textContent = new Date().getFullYear();
@@ -133,5 +134,6 @@
     </div>
   </div>
 </body>
+
 
 </html>
